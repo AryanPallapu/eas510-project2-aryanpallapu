@@ -1,0 +1,14 @@
+{
+  "dataset": "ai4i",
+  "algo": "rf",
+  "strategy": "none",
+  "params": {
+    "clf__n_estimators": 200,
+    "clf__min_samples_leaf": 2,
+    "clf__max_features": "sqrt",
+    "clf__max_depth": null
+  },
+  "threshold": 0.44,
+  "model_file": "models/ai4i_rf_tuned.joblib",
+  "criterion": "highest OOF F1 at the OOF-selected threshold (tie-break: OOF PR-AUC)"
+}

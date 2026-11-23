@@ -1,0 +1,14 @@
+{
+  "dataset": "aps",
+  "algo": "rf",
+  "strategy": "none",
+  "params": {
+    "clf__n_estimators": 100,
+    "clf__min_samples_leaf": 2,
+    "clf__max_features": "sqrt",
+    "clf__max_depth": 25
+  },
+  "threshold": 0.095,
+  "model_file": "models/aps_rf_tuned.joblib",
+  "criterion": "lowest OOF Scania cost at the OOF-selected threshold (tie-break: OOF PR-AUC)"
+}

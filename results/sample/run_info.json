@@ -1,0 +1,70 @@
+{
+  "mode": "sample",
+  "datasets": [
+    "ai4i",
+    "aps"
+  ],
+  "stage": "all",
+  "runtime_s": 131.1,
+  "finished": "2026-11-23 00:29:03 EST",
+  "python": "3.13.18",
+  "platform": "Linux-6.18.44-fc-v726-x86_64-with-glibc2.39",
+  "random_state": 42,
+  "cv_folds": 3,
+  "search_budget": {
+    "ai4i": {
+      "logreg": [
+        4,
+        3
+      ],
+      "knn": [
+        4,
+        3
+      ],
+      "dtree": [
+        4,
+        3
+      ],
+      "rf": [
+        4,
+        3
+      ],
+      "gb": [
+        4,
+        3
+      ]
+    },
+    "aps": {
+      "logreg": [
+        4,
+        3
+      ],
+      "knn": [
+        4,
+        3
+      ],
+      "dtree": [
+        4,
+        3
+      ],
+      "rf": [
+        4,
+        3
+      ],
+      "gb": [
+        4,
+        3
+      ]
+    }
+  },
+  "packages": {
+    "numpy": "2.5.3",
+    "pandas": "3.0.5",
+    "scikit-learn": "1.9.1",
+    "imbalanced-learn": "0.14.2",
+    "matplotlib": "3.11.2",
+    "seaborn": "0.13.2",
+    "joblib": "1.6.0",
+    "scipy": "1.18.1"
+  }
+}
