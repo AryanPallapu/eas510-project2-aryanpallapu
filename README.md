@@ -136,10 +136,3 @@ the full run, so they don't match `results/full/`.
 ├── tests/                  # data, leakage and pipeline tests (pytest)
 └── app/                    # optional Streamlit demo
 ```
-
-## AI assistance
-
-Claude (Anthropic) was used substantially in this project: for code generation, running and
-debugging the experiments, and drafting documentation. The full disclosure, covering which
-parts, how outputs were checked and what was changed, will be in the *Contributions and AI
-Assistance* section of `report.md`.
