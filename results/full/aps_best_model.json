@@ -1,0 +1,15 @@
+{
+  "dataset": "aps",
+  "algo": "gb",
+  "strategy": "ros",
+  "params": {
+    "clf__l2_regularization": 6.993395623207715,
+    "clf__learning_rate": 0.19691503323109746,
+    "clf__max_iter": 200,
+    "clf__max_leaf_nodes": 31,
+    "clf__min_samples_leaf": 50
+  },
+  "threshold": 0.0025,
+  "model_file": "models/aps_gb_tuned.joblib",
+  "criterion": "lowest OOF Scania cost at the OOF-selected threshold (tie-break: OOF PR-AUC)"
+}

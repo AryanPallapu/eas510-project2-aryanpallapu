@@ -1,0 +1,15 @@
+{
+  "dataset": "ai4i",
+  "algo": "gb",
+  "strategy": "none",
+  "params": {
+    "clf__learning_rate": 0.01855998084649059,
+    "clf__max_depth": 2,
+    "clf__min_samples_leaf": 1,
+    "clf__n_estimators": 500,
+    "clf__subsample": 0.85
+  },
+  "threshold": 0.58,
+  "model_file": "models/ai4i_gb_tuned.joblib",
+  "criterion": "highest OOF F1 at the OOF-selected threshold (tie-break: OOF PR-AUC)"
+}
